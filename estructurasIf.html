@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var X = parseInt(prompt("digite el valor de X"));
+        var Y = parseInt(prompt("digite el valor de Y"));
+        var Z = parseInt(prompt("digite el valor de Z"));
+
+        if (Y == X && Y == Z) {
+
+            document.write("Y = " + Y + " es igual que X = " + X + " y Z = " + Z);
+        } else {
+            if (Z > Y && Z > X) {
+                document.write("Z = " + Z + " es mayor que X = " + X + " y Y = " + Y);
+            } else {
+                if (Y > X && Y > Z) {
+                    document.write("Y = " + Y + " es mayor que X = " + X + " y Z = " + Z);
+                } else {
+                    if (X > Y && X > Z) {
+                        document.write("X = " + X + " es mayor que Y = " + Y + " y Z = " + Z);
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
